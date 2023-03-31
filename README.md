@@ -58,7 +58,13 @@ I refactor the framework based on Page Object Model so that it is scalable, reus
 
 ![image](https://user-images.githubusercontent.com/53706302/229240943-97ef8fb8-6ffa-49b5-8329-66d15fe94326.png)
 
+![image](https://user-images.githubusercontent.com/53706302/229249939-1f3c1643-f172-4775-beae-86af7c0c417c.png)
 
 ### 3.4. How to setup and run the tests
+1. Clone source code: `git clone "https://github.com/letruongminh/pflegia-fw.git"`
+2. Trigger the test with this command: `yarn cypress open` to open running tool 
+3. Trigger the test directly via git bash: `npx cypress run --spec "cypress/e2e/spec.cy.js"`
 
 ### 4. Possible Improvements
+* Apply yarn lint to check coding convention and code coverage for test before merging to the codebase.
+* Apply Docker to package the source for having a consistent development strategy within the development team.
