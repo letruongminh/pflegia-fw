@@ -13,6 +13,7 @@ class RegisterPageElement {
         invalidLastnameTxt: () => cy.contains("Nachname ist ungültig"),
         emptyEmailTxt: () => cy.contains("Email ist erforderlich"),
         invalidPhoneNumberTxt: () => cy.contains("Ungültige Telefonnummer"),
+        successfulAlertboxContent: () => cy.contains("Erfolgreich"),
         invalidEmailTxt: () => cy.contains("Diese Email-Adresse ist ungültig"),
     }
 }
