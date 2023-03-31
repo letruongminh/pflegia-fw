@@ -45,7 +45,19 @@ I want to build a simple automated test framework to automate Register workflows
 
 ### 3.2. CI Pipelines
 
+![image](https://user-images.githubusercontent.com/53706302/229240681-ba55e09c-9f07-4fae-9848-338b53070b09.png)
+
+![image](https://user-images.githubusercontent.com/53706302/229240862-114d5bad-2977-48d4-a17c-d6d77ccecb7c.png)
+
+Here is the general workflow of the pipeline:
+
+![image](https://user-images.githubusercontent.com/53706302/229240742-7ab6de13-ed37-4ec8-a615-3ca2f61bca4a.png)
+
 ### 3.3. Page Objects Model
+I refactor the framework based on Page Object Model so that it is scalable, reusable, and can be the template to develop futher: 
+
+![image](https://user-images.githubusercontent.com/53706302/229240943-97ef8fb8-6ffa-49b5-8329-66d15fe94326.png)
+
 
 ### 3.4. How to setup and run the tests
 
