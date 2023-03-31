@@ -1,8 +1,9 @@
 const BasePageElement = require("../elements/BasePageElement");
+const env = require("../../fixtures/env.json");
 
 class BasePage {
     visitLandingPage() {
-        cy.visit('https://pflegia-nx.vercel.app/for-employers');
+        cy.visit(env["staging"]);
     }
 
     acceptCookies() {
@@ -10,7 +11,7 @@ class BasePage {
     }
 
     setup() {
-        this.visitLandingPage(); 
+        this.visitLandingPage();
         this.acceptCookies();
     }
 }
