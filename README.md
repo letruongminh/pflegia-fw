@@ -60,6 +60,15 @@ I refactor the framework based on Page Object Model so that it is scalable, reus
 
 ![image](https://user-images.githubusercontent.com/53706302/229249939-1f3c1643-f172-4775-beae-86af7c0c417c.png)
 
+### 3.4. Cross-browser testing
+These test scripts can be triggered to run on 4 types of browsers: 
+* Chrome
+* Firefox
+* Edge
+* Electron (headless)
+
+To trigger via specified browser, please use the following command: `npx cypress run --spec "cypress/e2e/spec.cy.js" --browser chrome
+
 ### 3.4. How to setup and run the tests
 1. Clone source code: `git clone "https://github.com/letruongminh/pflegia-fw.git"`
 2. Trigger the test with this command: `yarn cypress open` to open running tool 
