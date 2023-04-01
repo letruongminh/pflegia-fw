@@ -67,7 +67,7 @@ These test scripts can be triggered to run on 4 types of browsers:
 * Edge
 * Electron (headless)
 
-To trigger via specified browser, please use the following command: `npx cypress run --spec "cypress/e2e/spec.cy.js" --browser chrome
+To trigger via specified browser, please use the following command: `npx cypress run --spec "cypress/e2e/spec.cy.js" --browser chrome`
 
 ### 3.4. How to setup and run the tests
 1. Clone source code: `git clone "https://github.com/letruongminh/pflegia-fw.git"`
