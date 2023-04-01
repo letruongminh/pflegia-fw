@@ -19,11 +19,11 @@ I want to build a simple automated test framework to automate Register workflows
 * Verify that an error is shown when submiting invalid email
 
 ## 3. Framework Details
-- [ ] Automate fully all the given scenarios.
-- [ ] Able to set up and run the tests in cross-browsers
-- [ ] Able to set up and run the tests within CI pipeline - Github Workflow.
-- [ ] All tests are refactored to become POM-based framework.
-- [ ] Refactor the test to have a separate place to store the data
+- [x] Automate fully all the given scenarios.
+- [x] Able to set up and run the tests in cross-browsers
+- [x] Able to set up and run the tests within CI pipeline - Github Workflow.
+- [x] All tests are refactored to become POM-based framework.
+- [x] Refactor the test to have a separate place to store the data
 
 ### 3.1. Common functions
 | Pages  | Methods | Usage | Input |
