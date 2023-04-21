@@ -5,5 +5,12 @@
   "email": "test-mail@mailinator.com",
   "phoneNumber": 123456789,
   "jobTitle": "Quality Assurance Automation Engineer",
-  "invalidEmail": "minh"
+  "invalidEmail": "minh",
+  "nonExistentEmail": "nonexistentemail@gmail.com",
+  "password": "12345678",
+  "postalCode": "Eberweg 2109, 9434 Au",
+  "position": "Betreuungskraft / Alltagsbegleiter/in",
+  "facilityType": "Pflegeheim",
+  "workingHours": "Vollzeit", 
+  "targetJobTitle": "Heilerziehungspfleger:in (w/m/d) - Hier sind Sie richtig! "
 }

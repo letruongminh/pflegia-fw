@@ -56,6 +56,7 @@ class RegisterPage extends BasePage {
             cy.root().submit();
         })
         RegisterPageElement.elements.successfulAlertbox().should("be.visible");
+        RegisterPageElement.elements.successfulAlertboxContent().should("be.visible");
     }
 
     submitEmptyForm() {

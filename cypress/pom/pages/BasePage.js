@@ -10,6 +10,18 @@ class BasePage {
         BasePageElement.elements.acceptCookiesBtn().click();
     }
 
+    switchLoginPage() {
+        BasePageElement.elements.loginBtn().click();
+    }
+
+    switchJobBoardPage() {
+        BasePageElement.elements.jobBoardMenu().click();
+    }
+
+    getTextFromElement(selector) {
+        return cy.get(`${selector}`).invoke("text");
+    }
+
     setup() {
         this.visitLandingPage();
         this.acceptCookies();
