@@ -76,4 +76,4 @@ To trigger via specified browser, please use the following command: `npx cypress
 
 ### 4. Possible Improvements
 * Apply yarn lint to check coding convention and code coverage for test before merging to the codebase.
-* Apply Docker to package the source for having a consistent development strategy within the development team..
+* Apply Docker to package the source for having a consistent development strategy within the development team.
