@@ -1,7 +1,7 @@
 # AUTOMATED TEST FRAMEWORK FOR PFLEGIA PROJECT
 
 ## 1. Aims
-I want to build a simple automated test framework to automate Register workflows, including postive and negative cases. This framework is also used to apply for Pflegia for the QA and Test Engineer. 
+I want to build a simple automated test framework to automate Register workflows, including postive and negative cases.
 
 ## 2. Application Under Test
 ### 2.1. Environment Details: 
